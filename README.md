@@ -65,3 +65,10 @@ memories =[create,memory2]
 print(memories)
      
 [{'content': 'I prefer learning Python with small examples', 'timestamp': '10 Sep 2026', 'topic': 'learning', 'importance': 0.8, 'context': 'python study'}, {'content': 'I prefer learning TOEFL with small sessions of grammar ,vocab ,exersises and voice shadowing', 'timestamp': '13 Sep 2026', 'topic': 'learning', 'importance': 0.9, 'context': 'TOEFL study'}]
+memories
+   │
+   ├── create
+   │     └── Python learning preference
+   │
+   └── memory2
+         └── TOEFL learning preference
