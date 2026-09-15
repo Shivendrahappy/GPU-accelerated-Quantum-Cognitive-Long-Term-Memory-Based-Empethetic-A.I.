@@ -1,5 +1,31 @@
 # GPU-accelerated-Quantum-Cognitive-Long-Term-Memory-Based-Empethetic-A.I.
 Project thesis -Questions and solutions in relation to GPU accelerated Long term Memory A.I. chatbot ,whether Quantum cognitive model possible in practical model at this time ,all learning outcome and working on related model .
+This is the blue print
+1. Memory dictionary
+        ↓
+2. Memory collection
+        ↓
+3. Dynamic memory addition
+        ↓
+4. Persistent JSON storage
+        ↓
+5. Retrieval
+        ↓
+6. Relevance selection
+        ↓
+7. Conversation integration
+        ↓
+8. LLM integration
+        ↓
+9. Affective/emotional context
+        ↓
+10. Quantum-cognition-inspired component
+        ↓
+11. Integration
+        ↓
+12. Evaluation
+        ↓
+13. GPU experimentation/optimization
 
 STEP1 - 1 Long Term memory
 For long term memory we start with making dictionary 'create" as step 1 as memory 1
