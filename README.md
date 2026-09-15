@@ -45,7 +45,7 @@ print(memory2)
      
 {'content': 'I prefer learning TOEFL with small sessions of grammar ,vocab ,exersises and voice shadowing', 'timestamp': '13 Sep 2026', 'topic': 'learning', 'importance': 0.9, 'context': 'TOEFL study'}
 STEP 4 . Put the both in a memory collection - memories= { create,memory2 )
-
+We have tp write the full  codes for create and the memory2
 
 create = {
     'content': 'I prefer learning Python with small examples',
