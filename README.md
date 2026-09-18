@@ -264,3 +264,8 @@ with open('memories.json','r') as file:
     loaded_memories = json.load(file)
 print(loaded_memories)
      [{'content': 'I prefer learning Python with small examples', 'timestamp': '10 Sep 2026', 'topic': 'learning', 'importance': 0.8, 'context': 'python study'}, {'content': 'I prefer learning TOEFL with small sessions of grammar ,vocab ,exersises and voice shadowing', 'timestamp': '13 Sep 2026', 'topic': 'learning', 'importance': 0.9, 'context': 'TOEFL study'}, {'content': 'I prefer learning creative writing through reading novels and weekend wrting excercises', 'timestamp': '15 Sep 2026', 'topic': 'learning', 'importance': 0.5, 'context': 'creative writing study'}]
+Retrieval -
+We have 3 stored memory dictionary in memories ,but currently Python can give only the whole collection 
+We want 
+User want something -memory sytem- find relavent stored memory
+STEP 1   LOOK AT one memoy
