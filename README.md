@@ -269,3 +269,18 @@ We have 3 stored memory dictionary in memories ,but currently Python can give on
 We want 
 User want something -memory sytem- find relavent stored memory
 STEP 1   LOOK AT one memoy
+
+---
+
+## Steps 11–13: Full Architecture, Evaluation & GPU Execution (OSF Archive)
+
+Building on the foundational JSON memory persistence shown in Steps 1–10 above, the complete end-to-end system (**Steps 11–13**) is implemented and evaluated in the full notebook and 20-page technical report archived on OSF:
+
+* **Step 11 — End-to-End Integration:** Connects `sentence-transformers/all-MiniLM-L6-v2` (384-dimensional dense embeddings) and `Qwen/Qwen2.5-1.5B-Instruct` with the persistent `memories.json` store, incorporating relevance thresholding, affective context tagging, and sequential subspace projections.
+* **Step 12 — Empirical Evaluation:** Systematically benchmarks permissive (`0.25`) vs. strict (`0.365`) similarity thresholds, paraphrase recall stability (`12/12` vs. `25/36` trials), and order-dependent context scores (`0.745157` vs. `0.818575`).
+* **Step 13 — GPU Optimization:** Executed and timed on an NVIDIA T4 GPU (16 GB VRAM) to validate local, low-latency inference without proprietary cloud APIs.
+
+### Full Reproducible Code & Technical Report
+* **OSF Open-Science Repository:** [https://osf.io](https://osf.io) *(includes the complete 20-page Technical Evaluation Report PDF and `GPU_L_T_M_A_I_(27).ipynb`)*
+
+
