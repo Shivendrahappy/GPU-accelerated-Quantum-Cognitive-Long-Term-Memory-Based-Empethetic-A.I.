@@ -281,6 +281,6 @@ Building on the foundational JSON memory persistence shown in Steps 1–10 above
 * **Step 13 — GPU Optimization:** Executed and timed on an NVIDIA T4 GPU (16 GB VRAM) to validate local, low-latency inference without proprietary cloud APIs.
 
 ### Full Reproducible Code & Technical Report
-* **OSF Open-Science Repository:** [https://osf.io](https://osf.io) *(includes the complete 20-page Technical Evaluation Report PDF and `GPU_L_T_M_A_I_(27).ipynb`)*
+* **OSF Open-Science Repository includes the complete 20-page Technical Evaluation Report PDF and `GPU_L_T_M_A_I_(27).ipynb`)*
 
 
